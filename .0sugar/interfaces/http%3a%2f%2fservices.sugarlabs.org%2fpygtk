@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='/interface.xsl'?>
+<interface uri="http://services.sugarlabs.org/pygtk"
+           xmlns="http://zero-install.sourceforge.net/2004/injector/interface"
+           xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile"
+           xmlns:sugar="http://download.sugarlabs.org/services/saccharin/namespaces/0sugar">
+    <name>pygtk</name>
+    <summary>GTK+2 bindings for Python</summary>
+    <description>GTK+2 bindings for Python</description>
+    <homepage>http://www.pygtk.org/</homepage>
+    <sugar:sibling interface="http://services.sugarlabs.org/pygtk/devel.xml"/>
+    <package-implementation package="python-module-pygtk" distributions="RPM"/>
+    <package-implementation package="pygtk2" distributions="RPM"/>
+    <package-implementation package="pygtk2.0" distributions="RPM"/>
+    <package-implementation package="python-gtk" distributions="RPM"/>
+    <package-implementation package="python-gtk2" distributions="Debian"/>
+    <package-implementation package="dev-python/pygtk" distributions="Gentoo"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJLeTJjAAoJEHI8xbS2hpuB52gH/0LWSomii20HiphRla17M3XSmEXMJBdlBEMJ
++AQK6l+Qmyb0uzE4UkfShSSOQgL4ALCvJ6EyW35Qoax1M4xZE13XLOkDYlwx26OP3wDYry8HpAmW
+nrunG1G49dYvNjhNXsQntMgU5qc8sGCaZi6Og6Nb2EDB+zmZi8BCFO9/q+tYQJIg7XhpQfD+rT5j
+mEU3QE7DpQg1zwYaMYvNWWsDDMPYNlbJxUCwUi/dGneSbJVzzc/z9wguG21/HVSIRFiTpv/SaExU
+Lai1RAzy9Jq40LNBEctCr/vjF5Z8m8DRyGcBWoNFcvfylIRESSg3xK/iH7Ep9ZfYF2jGXrRnb4df
+ONY=
+
+-->

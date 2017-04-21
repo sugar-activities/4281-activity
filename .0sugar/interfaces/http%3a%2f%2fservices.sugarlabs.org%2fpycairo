@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='/interface.xsl'?>
+<interface uri="http://services.sugarlabs.org/pycairo"
+           xmlns="http://zero-install.sourceforge.net/2004/injector/interface"
+           xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile"
+           xmlns:sugar="http://download.sugarlabs.org/services/saccharin/namespaces/0sugar">
+    <name>pycairo</name>
+    <summary>Python wrapper for cairo vector graphics library</summary>
+    <description>Python wrapper for cairo vector graphics library</description>
+    <homepage>http://cairographics.org/pycairo/</homepage>
+    <sugar:sibling interface="http://services.sugarlabs.org/pycairo/devel.xml"/>
+    <package-implementation package="pycairo" distributions="RPM"/>
+    <package-implementation package="python-cairo" distributions="RPM"/>
+    <package-implementation package="python-module-pycairo" distributions="RPM"/>
+    <package-implementation package="python-cairo" distributions="Debian"/>
+    <package-implementation package="dev-python/pycairo" distributions="Gentoo"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJLeTJVAAoJEHI8xbS2hpuBk4kH/0wZy/uo6hBOJ7pqeNeUJI8i9vTPpPQSWxmH
+BGWal4p+8Q3Te1bhTN8f4q+jbK8P1AynpC1jw+A/zJeAmM2sJ6Yd07xtZtbFLPiso/SHWGfoxjuh
+Dk2uk0BGpRiiQRrGsKuilWu+jrgHMQ8OYVT/u9Bh0tyFDpxApx0MEemcPBvMcKoUt6IlpUha8aym
+kIEye49e7cw2a1wAlFsaP4wpfAgoNMYDJApmRGHclgIPEzHHFB1D+evXkfFSTKKLkRqiQqB4aAMd
+bPNAWqowBG3WNSw2ntdmznZOV5NQLbNJQPu9zzmlh/C2if94/Jw8x48jnWKkoTW/pe1zUIDnby87
+Cd4=
+
+-->

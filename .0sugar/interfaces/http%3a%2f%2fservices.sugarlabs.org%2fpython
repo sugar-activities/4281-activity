@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='/interface.xsl'?>
+<interface uri="http://services.sugarlabs.org/python"
+           xmlns="http://zero-install.sourceforge.net/2004/injector/interface"
+           xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile"
+           xmlns:sugar="http://download.sugarlabs.org/services/saccharin/namespaces/0sugar">
+    <name>python</name>
+    <summary>Python is an interpreted, interactive, object-oriented programming language</summary>
+    <description>Python is an interpreted, interactive, object-oriented programming language</description>
+    <homepage>http://www.python.org/</homepage>
+    <sugar:sibling interface="http://services.sugarlabs.org/python/devel.xml"/>
+    <package-implementation package="python" distributions="RPM"/>
+    <package-implementation package="python" distributions="Debian"/>
+    <package-implementation package="dev-lang/python" distributions="Gentoo"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJLeTJvAAoJEHI8xbS2hpuBsiQH/R+3TfAJvTVZtTJy3tQF+yx6XVpSWsFrAwqM
+RHnfp7KiUsVfCDRzuHW126d1mwRfxIL/j2aFCs1nXPG0XHmJX/Y780c/e/lL/G7lzUzSiUYqLANb
+1ykp+wIkQtdExcc2bengAX7QYVOg5oIH1rkMuGOHssZ/w/kwDA3B25iisx/Wi2FSADl1Sk1k8RvD
+RtSrOIYwqaMyNVhikIWKll7mJDw5DqkRdCS5vomNeJcfk07Y4TRtoHAQ+em9UHQX/K5rw2NMiL7v
+16wuN21RWeARi9wit0eWM2yOsSRiXqpc0tFSaJY/fAR2+p/t7YjBO7q3a4b9GEgpO1Fr4g2RvGSD
+fSQ=
+
+-->
